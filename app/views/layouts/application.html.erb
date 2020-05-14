@@ -16,8 +16,10 @@
           <%= render 'layouts/navigation' %>
         </div>
       </div>
+      
       <div class="ui container">
-        <%= yield %>
+        <%= render 'layouts/messages' %>
+          <%= yield %>
       </div>
   </body>
 </html>
