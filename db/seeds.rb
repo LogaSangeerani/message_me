@@ -13,8 +13,8 @@
 #User.create(username: "Loga2", password: "password")
 #User.create(username: "Dharma2", password: "password")
 
-Message.create(body: "Hi, How are you!", user_id: 1)
-Message.create(body: "I am good", user_id: 2)  
-Message.create(body: "What are you doing?", user_id: 1)  
-Message.create(body: "I am studying!", user_id: 2)  
-Message.create(body: "Really?", user_id: 1)  
+#Message.create(body: "Hi, How are you!", user_id: 1)
+#Message.create(body: "I am good", user_id: 2)  
+#Message.create(body: "What are you doing?", user_id: 1)  
+#Message.create(body: "I am studying!", user_id: 2)  
+#Message.create(body: "Really?", user_id: 1)  
