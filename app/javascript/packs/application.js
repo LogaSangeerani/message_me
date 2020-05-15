@@ -18,9 +18,16 @@ require("semantic-ui-sass")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
+scroll_bottom = function() {
+    if($('#messages-scroll').length > 0) {
+        $('#messages-scroll').scrollTop($('#messages-scroll')[0].scrollHeight);
+    }
+}
+
 $(document).on('turbolinks:load', function() {
     $('.ui.dropdown').dropdown();
     $('.message .close').on('click', function() {
     $(this).closest('.message').transition('fade'); 
 });
+    scroll_bottom();
 })
